@@ -15,3 +15,9 @@ steps:
   inputs:
     filename: 'power.bat'
     arguments: '3 4'
+
+- task: BatchScript@1
+  displayName: "Cry"
+  inputs:
+    filename: 'calc.bat'
+    arguments: '3 4'
